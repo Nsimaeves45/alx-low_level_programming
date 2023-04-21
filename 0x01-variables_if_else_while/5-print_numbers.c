@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main-prints all single digit numbers of base.
- * *Return:0 no error, non zero if error
+ * main - prints all single digit numbers from 0 to 9
+ * Return: Always 0
  */
 int main(void)
 {
@@ -11,7 +11,8 @@ int main(void)
 	for (num = '0'; num <= 10; num++)
 	{
 		printf("%d", num);
-	}
-	printf('\n');
-	return (0);
+
+		printf("\n");
+
+		return (0);
 }
